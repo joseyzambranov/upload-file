@@ -4,7 +4,7 @@ import os
 
 load_dotenv()
 
-URL_BASE = os.environ.get("URL_BASE_SINAPSIS")
+URL_BASE = os.environ.get("URL_BASE_SINAPSIS_2")
 
 resp = requests.get(f"{URL_BASE}/contactList/default/generate-signed-upload")
 data = resp.json()
